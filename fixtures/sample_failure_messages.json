@@ -1,0 +1,14 @@
+[
+  "Timeout 30000ms exceeded while waiting for locator('button:has-text(\"Sign in\")') to resolve.",
+  "Timeout 5000ms exceeded while waiting for getByTestId('welcome-text') to become visible.",
+  "Timeout 30000ms exceeded while waiting for locator('[data-testid=\"login-btn\"]') to resolve.",
+  "Timeout 10000ms exceeded waiting for navigation after clicking the appointment confirm button.",
+  "Error: strict mode violation: getByTestId('book-btn') resolved to 2 elements.",
+  "Error: strict mode violation: getByRole('button', { name: 'Sign in' }) resolved to 3 elements.",
+  "Error: strict mode violation: locator('.appointment-card') resolved to 4 elements.",
+  "net::ERR_CONNECTION_REFUSED at https://hapi.fhir.org/baseR4/Patient",
+  "net::ERR_CONNECTION_RESET while fetching https://hapi.fhir.org/baseR4/Patient?family=Doe",
+  "requests.exceptions.ConnectionError: Failed to establish a new connection to hapi.fhir.org",
+  "Expected status code 201 but received 503 from POST https://hapi.fhir.org/baseR4/Patient",
+  "AssertionError: expected 'Welcome, Jordan Lee' but received 'Welcome, undefined'"
+]

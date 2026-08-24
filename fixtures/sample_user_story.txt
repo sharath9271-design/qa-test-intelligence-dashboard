@@ -1,0 +1,14 @@
+Feature: Patient portal sign-in
+
+As a returning patient, I want to sign in with my email and password so
+that I can view my upcoming appointments.
+
+Acceptance criteria:
+- Given valid credentials, signing in shows the dashboard with a welcome
+  message and the patient's upcoming appointments.
+- Given an incorrect password, the user sees an "Invalid email or
+  password." error and stays on the sign-in screen.
+- Given the email or password field is left blank, the form is rejected
+  client-side with an "Email and password are required." message before
+  any request is sent.
+- Signing out from the dashboard returns the user to the sign-in screen.
