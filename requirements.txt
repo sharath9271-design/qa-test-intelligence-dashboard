@@ -1,0 +1,14 @@
+# Pinned to the exact versions validated locally and in CI (clean-room
+# `pip install -r requirements.txt` into a fresh venv, full test suite green).
+scikit-learn==1.9.0
+numpy==2.4.6
+pandas==3.0.5
+streamlit==1.62.0
+pytest==9.1.1
+
+# `anthropic` is intentionally NOT listed here. src/llm_client.py imports it
+# lazily inside AnthropicClient.complete() only, so the whole test suite and
+# the dashboard's demo mode run with zero real-LLM dependency installed.
+# Install it yourself (`pip install anthropic`) if you set ANTHROPIC_API_KEY
+# and want the dashboard to call a real model instead of the bundled demo
+# response.
